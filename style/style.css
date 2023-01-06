@@ -6,28 +6,69 @@
 header{
     background-image: url("../images/banner/banner1.png");
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
-    text-align: right;
-     height: 100vh;
+    height: 100vh;
+    
 }
-.title{
-    margin-right: 30px;
+.banner{
+    text-align: center;
+    justify-content: space-between;
+    gap: 100px;
 }
+
+
 .descriped{
     font-size: 7px;
    color: gray;
-   margin-right:30px;
+  
    
 }
 .btn-primary{
+   
     background-color: orangered;
     color: whitesmoke;
     border: 0px;
     padding: 10px;
-    margin-right: 30px;
-    /* text-align: right; */
 }
-div{
+.section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+/* about plan */
+#plans h2{
     text-align: center;
+    margin-top: 100px;
+}
+
+.about-plans{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+/* contact */
+#contacts{
+    background-image: url("../images/watch.png");
+    background-position: center;
+    height: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+.contact{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.contact button{
+    background-color: orangered;
+    color: whitesmoke;
+    border: 0px;
+    
+}
+.contact h2{
+    color: whitesmoke;
 }
