@@ -100,12 +100,12 @@
     margin-bottom: 15px;
 }
 .img{
-    background-image: url("/images/watch.png");
+    background-image: url("./images/watch.png");
     border-radius: 10px;
     overflow: hidden;
 }
 .imgs{
-    background-image: url("/images/gradient2.png");
+    background-image: url("./images/gradient2.png");
 }
 #contacts{
     padding: 0px 200px;
