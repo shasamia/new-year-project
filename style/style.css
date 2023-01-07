@@ -3,18 +3,22 @@
     
 }
 /* header banner */
-header{
+#header{
     background-image: url("../images/banner/banner1.png");
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
     height: 100vh;
     
+
+    
 }
 .banner{
-    text-align: center;
-    justify-content: space-between;
+    text-align: right;
+    margin-right: 30px;
     gap: 100px;
+    
+    
 }
 
 
@@ -51,24 +55,56 @@ header{
     margin-top: 100px;
 }
 /* contact */
-#contacts{
-    background-image: url("../images/watch.png");
-    background-position: center;
-    height: 100px;
-    margin-left: 70px;
-    margin-right: 70px;
-    
-}
-.contact{
-    margin-top: 100px;
-    margin-left: 70px;
-}
+
 .contact button{
-    background-color: orangered;
+    background-color: rgb(135, 41, 7);
     color: whitesmoke;
     border: 0px;
+    
     
 }
 .contact h2{
     color: whitesmoke;
+}
+.img{
+    background-image: url("/images/watch.png");
+    padding: 0px;
+}
+.imgs{
+    background-image: url("/images/gradient2.png");
+    padding: 40px;
+}
+#contacts{
+    padding: 0px 200px;
+    margin-top: 10px;
+}
+/* footer  */
+/* contact */
+.contact-section{
+    display: flex;
+    gap: 100px;
+    margin-top: 80px;
+    background-color: black;
+    color: whitesmoke;
+  justify-content: space-around;
+}
+.contact-section .contact-title{
+    text-align: left;
+}
+.contact-section button{
+    background-color: orangered;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 7px;
+}
+.contact-section a img{
+    margin-top:15px;
+    margin-left: 15px;
+   
+}
+.contact-section span{
+    font-size: 10px;
+}
+.contact-section p{
+    font-size: 10px;
 }
