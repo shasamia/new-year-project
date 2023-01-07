@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
-    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
     
 }
 /* header banner */
@@ -8,88 +12,139 @@
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    
-
-    
+    padding: 150px 0;
 }
 .banner{
     text-align: right;
-    margin-right: 30px;
-    gap: 100px;
-    
-    
+    padding: 0 150px;
 }
-
-
+.banner-title {
+    font-size: 50px;
+}
 .descriped{
-    font-size: 7px;
-   color: gray;
-  
-   
+    font-size: 18px;
+    color: gray; 
+    margin: 30px 0;
 }
-.btn-primary{
-   
+.primary-btn{
     background-color: orangered;
     color: whitesmoke;
     border: 0px;
-    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 15px 25px;
 }
-.section{
-    display:flex;
-    justify-content: space-between;
+/* about section */
+.about-section {
+    display: flex;
     align-items: center;
     gap: 100px;
-    margin-top: 100px;
+    padding: 0 150px;
 }
-/* about plan */
-#plans h2{
-    text-align: center;
-    margin-top: 100px;
+.about-section-img img {
+    width: 400px;
+}
+.section-title h3 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-title p {
+    font-size: 15px;
+    margin: 20px 0;
+}
+.section-title ul li {
+    list-style-type: none;
+    font-size: 15px;
+}
+.section-title ul li i {
+    color: rgb(52, 204, 52);
+    margin-right: 10px;
 }
 
+/* about plan */
+
+#plans {
+    padding: 100px 150px;
+}
+#plans h2 {
+    text-align: center;
+}
 .about-plans{
     display: flex;
-    justify-content: center;
-    gap: 100px;
-    margin-top: 100px;
+    justify-content: space-between;
+    gap: 25px;
 }
-/* contact */
+.about-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-plan h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
 
+/* contact */
+.contact {
+    padding: 30px 30px;
+}
 .contact button{
     background-color: rgb(135, 41, 7);
     color: whitesmoke;
-    border: 0px;
-    
-    
+    border: 0px;  
 }
 .contact h2{
     color: whitesmoke;
+    font-size: 35px;
+    margin-bottom: 15px;
 }
 .img{
     background-image: url("/images/watch.png");
-    padding: 0px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .imgs{
     background-image: url("/images/gradient2.png");
-    padding: 40px;
 }
 #contacts{
     padding: 0px 200px;
-    margin-top: 10px;
 }
 /* footer  */
 /* contact */
 .contact-section{
     display: flex;
     gap: 100px;
+    padding: 100px 150px;
     margin-top: 80px;
     background-color: black;
     color: whitesmoke;
-  justify-content: space-around;
+    justify-content: space-around;
 }
-.contact-section .contact-title{
+.footer-content-left-title{
     text-align: left;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.footer-content-left p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.footer-content-left span {
+    font-size: 14px;
+}
+.contact-title{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer-content-right input {
+    width: 250px;
+    padding: 15px;
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.552);
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 .contact-section button{
     background-color: orangered;
@@ -98,13 +153,7 @@
     margin-top: 7px;
 }
 .contact-section a img{
-    margin-top:15px;
-    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
    
-}
-.contact-section span{
-    font-size: 10px;
-}
-.contact-section p{
-    font-size: 10px;
 }
