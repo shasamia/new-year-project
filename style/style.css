@@ -19,7 +19,7 @@
     padding: 0 150px;
 }
 .banner-title {
-    font-size: 50px;
+    font-size: 60px;
 }
 .descriped{
     font-size: 18px;
@@ -34,27 +34,26 @@
     font-size: 16px;
     padding: 15px 25px;
 }
+
 /* about section */
 .about-section {
     display: flex;
     align-items: center;
-    gap: 100px;
-    padding: 0 150px;
+    justify-content: space-between;
+    padding: 100px 150px;
 }
-.about-section-img img {
-    width: 400px;
-}
+
 .section-title h3 {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
 }
 .section-title p {
-    font-size: 15px;
+    font-size: 18px;
     margin: 20px 0;
 }
 .section-title ul li {
     list-style-type: none;
-    font-size: 15px;
+    font-size: 18px;
 }
 .section-title ul li i {
     color: rgb(52, 204, 52);
@@ -64,15 +63,17 @@
 /* about plan */
 
 #plans {
-    padding: 100px 150px;
+    padding: 0 200px 100px 200px;
 }
-#plans h2 {
+#plans > h2 {
     text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: 800;
 }
 .about-plans{
     display: flex;
     justify-content: space-between;
-    gap: 25px;
 }
 .about-plan {
     display: flex;
@@ -81,18 +82,22 @@
     align-items: center;
 }
 .about-plan h2 {
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin: 20px 0;
+    font-size: 25px;
 }
+.about-plan p {
+    font-size: 20px;
+}
+
 
 /* contact */
 .contact {
-    padding: 30px 30px;
+    padding: 50px;
 }
 .contact button{
     background-color: rgb(135, 41, 7);
     color: whitesmoke;
-    border: 0px;  
+    border: 0px;
 }
 .contact h2{
     color: whitesmoke;
@@ -100,17 +105,17 @@
     margin-bottom: 15px;
 }
 .img{
-    background-image: url("/images/watch.png");
+    background-image: url("../images/watch.png");
     border-radius: 10px;
     overflow: hidden;
 }
 .imgs{
-    background-image: url("/images/gradient2.png");
+    background-image: url("../images/gradient2.png");
 }
 #contacts{
     padding: 0px 200px;
 }
-/* footer  */
+
 /* contact */
 .contact-section{
     display: flex;
@@ -127,11 +132,15 @@
     margin-bottom: 20px;
 }
 .footer-content-left p {
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 17px;
+    margin-bottom: 30px;
 }
 .footer-content-left span {
-    font-size: 14px;
+    font-size: 17px;
+}
+.contact-section a img{
+    margin-top: 30px;
+    margin-right: 15px;
 }
 .contact-title{
     text-align: left;
@@ -145,15 +154,9 @@
     border: 2px solid rgba(255, 255, 255, 0.552);
     border-radius: 10px;
     margin-bottom: 10px;
+    color: #fafafa;
+    font-size: 18px;
 }
 .contact-section button{
-    background-color: orangered;
-    color: whitesmoke;
-    padding: 10px;
-    margin-top: 7px;
-}
-.contact-section a img{
-    margin-top: 15px;
-    margin-right: 15px;
-   
+    margin-top: 10px;
 }
